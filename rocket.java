@@ -21,8 +21,8 @@ public class rocket{
 
         int lines = (userIn * 2) - 1;
         for(int row = 0; row < lines; row++){ // this loop makes sure that it prints out things line by line
-             for(int space = (lines - (row - 1)) - 2; space >= 0; space--){ // this loop prints out the amount of spaces before printing out the slashes to the left of the stars
-                  System.out.print(" ");
+             for(int space = (lines - (row - 1)) - 2; space >= 0; space--){ // this loop prints out the amount of spaces before printing 
+                  System.out.print(" ");                                    //out the slashes to the left of the stars
              }
 
 
@@ -45,20 +45,20 @@ public class rocket{
        for(int line = userIn, row = 0; line  > 0; line--){ // this loop makes sure that everything is printed line by line.
            row++;
            System.out.print("|");
-           for(int periods = 0; periods < (line - 1); periods++){ //this for loop creates the periods before the slashes on the top half part.
-               System.out.print(".");
+           for(int periods = 0; periods < (line - 1); periods++){ //this for loop creates the periods before the slashes on the top half 
+               System.out.print(".");                             // part.
            }
            for(int slash = 0; slash < row; slash++){ // this for loop creates the slashes on the left half of the ship
                System.out.print("/\\");
            }
-           for(int periods = 0; periods < ((line - 1) * 2); periods++){ //this loop adds the periods in the middle of the slashes on the left and right half of the shop
-               System.out.print(".");
+           for(int periods = 0; periods < ((line - 1) * 2); periods++){ //this loop adds the periods in the middle of the slashes on the
+               System.out.print(".");                                   // left and right half of the ship
            }
            for(int slash = 0; slash < row; slash++){ // this loop adds the slashes on the right side of the ship
                System.out.print("/\\");
            }
-           for(int periods = 0; periods < (line - 1); periods++){ // this loops adds the periods thats to the right of the slashes on the right half of the ship.
-               System.out.print(".");
+           for(int periods = 0; periods < (line - 1); periods++){ // this loops adds the periods thats to the right of the slashes on the
+               System.out.print(".");                             // right half of the ship.
            }
            System.out.print("|");
            System.out.println();
