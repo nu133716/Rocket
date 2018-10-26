@@ -1,4 +1,4 @@
-//im just trying to get another shirt
+//im just trying to get another shirt. fActs same here
 import java.util.Scanner;
 
 public class rocket{
